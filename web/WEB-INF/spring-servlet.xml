@@ -8,7 +8,4 @@
         <property name = "prefix" value = "/WEB-INF/Views/" />
         <property name = "suffix" value = ".jsp" />
     </bean>
-    <bean id = "loginServices" class="com.prj.servicesimpl.LoginServiceImpl" ></bean>
-    <bean id = "userDao" class="com.prj.daosimpl.UserDaoImpl"></bean>
-    <bean id = "dbOperations" class = "com.prj.dbtransaction.DBOperations"></bean>
 </beans>
