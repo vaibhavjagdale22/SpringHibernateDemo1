@@ -2,10 +2,10 @@
   <artifact type="exploded-war" name="SpringHibernateDemo:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/SpringHibernateDemo_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="SpringHibernateDemo/web/Web" />
+      <element id="javaee-facet-resources" facet="SpringHibernateAnnotations/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="SpringHibernateDemo" />
+          <element id="module-output" name="SpringHibernateAnnotations" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Hibernate 5.4.2-5.4.2" />
