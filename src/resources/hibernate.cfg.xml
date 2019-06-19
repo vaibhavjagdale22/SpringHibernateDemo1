@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- DB Details -->
+		<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+		<property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:XE</property>
+		<property name="hibernate.connection.username">vaibhav</property>
+		<property name="hibernate.connection.password">vaibhav</property>
+		<!--<property name="hbm2ddl.auto">create</property>-->
+		<!-- Hibernate Dialect Details -->
+		<property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+		
+		<!-- Mapping class name -->
+        <mapping class="com.prj.entities.UserInfo"/>
+	</session-factory>
+</hibernate-configuration>
