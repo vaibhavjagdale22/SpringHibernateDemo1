@@ -14,6 +14,7 @@ public class UserInfo implements Serializable {
     @Column
     private String firstname;
 
+
     public UserInfo() {}
     //getters and setters
     public UserInfo(int id, String name){
