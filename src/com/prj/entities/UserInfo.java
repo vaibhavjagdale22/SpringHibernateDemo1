@@ -11,6 +11,8 @@ public class UserInfo implements Serializable {
     @GeneratedValue
     @Column(name = "userinfoid_pk")
     private int userinfoid;
+
+    
     @Column
     private String firstname;
 
